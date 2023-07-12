@@ -50,7 +50,6 @@ public class ProductControllerTest {
         assertEquals(mockProducts.size(), result.size());
         assertEquals(mockProducts.get(0).getProductName(), result.get(0).getProductName());
         assertEquals(mockProducts.get(1).getProductDescription(), result.get(1).getProductDescription());
-        // Add more assertions as needed
     }
 
     @Test
